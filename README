@@ -1,0 +1,2 @@
+Enter your username and password in the respective field and run the script.
+The script will automatically stream for public twitter feed and displays only tweet, created date, geo if available and in reply to id

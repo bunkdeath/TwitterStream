@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/env python
 
 # To change this template, choose Tools | Templates
 # and open the template in the editor.
@@ -14,8 +14,10 @@ STREAM_URL = "https://stream.twitter.com/1/statuses/sample.json"
 USER = "bunkdeath"
 PASS = "*********"
 
+
 def on_receive(data):
     parseStreamingTweet(data)
+
 
 def parseStreamingTweet(tweet):
     print "\n"
